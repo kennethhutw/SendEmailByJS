@@ -1,16 +1,9 @@
 #Send Email By Javascript Example App
+## https://medium.com/@hukenneth/send-an-email-using-only-javascript-40de8b9e6511
 
-
-/*
-	** Send Email By Javascript Example App
-	** Licensed under the Apache License v2.0
-	** http://www.apache.org/licenses/LICENSE-2.0
-	** Built by Kenneth Hu (Kenneth_hu@hotmail.com)
-	** Get API KEY from https://mandrillapp.com/
-	*/
-$.ajax({
+                    $.ajax({
 						  type: 'POST',
-						  url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+			              url: 'https://mandrillapp.com/api/1.0/messages/send.json',
 						  data: {
 							'key': 'YOUR API KEY HERE',
 							'message': {
